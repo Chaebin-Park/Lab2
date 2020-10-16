@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "./lib/calc.h"
+#include "calc.h"
 
 int main(int argc, char *argv[]){	
 	printf("main run\n");

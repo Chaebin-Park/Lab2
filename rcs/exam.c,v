@@ -1,0 +1,52 @@
+head	1.2;
+access;
+symbols;
+locks
+	chaebin:1.2; strict;
+comment	@ * @;
+
+
+1.2
+date	2020.10.13.09.14.35;	author chaebin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2020.10.13.09.13.02;	author chaebin;	state Exp;
+branches;
+next	;
+
+
+desc
+@This is First RCS test file.
+@
+
+
+1.2
+log
+@function print() is added
+@
+text
+@/* $Log: exam.c,v $
+ * Revision 1.1  2020/10/13 09:13:02  chaebin
+ * Initial revision
+ * */
+
+#include <stdio.h>
+
+int main()
+{
+     printf(' Hello \n' );
+}
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 4
+a4 1
+/* $Log:$ */
+@

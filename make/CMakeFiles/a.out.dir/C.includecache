@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chaebin/lab2/make/bar.c
+
+/home/chaebin/lab2/make/bar.h
+
+/home/chaebin/lab2/make/foo.c
+
+/home/chaebin/lab2/make/foo.h
+
+/home/chaebin/lab2/make/main.c
+stdio.h
+-
+foo.h
+/home/chaebin/lab2/make/foo.h
+bar.h
+/home/chaebin/lab2/make/bar.h
+

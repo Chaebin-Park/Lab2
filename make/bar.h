@@ -1,0 +1,3 @@
+/*bar.h*/
+
+void bar();
